@@ -162,8 +162,8 @@ SELECT
     CONCAT(K.Subcategory, "-", K.Category) AS `Subcategory-Cateogry`,
     ROUND(SUM(C.Revenue),2) AS Revenue,
     ROUND(SUM(C.Revenue)/(SELECT SUM(Revenue) 
-							FROM Calculations 
-							WHERE YEAR(Date)=2021 AND MONTH(Date)=8)*100 ,2) AS Revenue_Proportion,
+				FROM Calculations 
+				WHERE YEAR(Date)=2021 AND MONTH(Date)=8)*100 ,2) AS Revenue_Proportion,
     ROUND(SUM(C.Profit),2) AS Profit,
     ROUND(SUM(C.Profit)/SUM(C.Revenue)*100, 2) AS Margin,
     CASE 
