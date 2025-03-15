@@ -6,7 +6,7 @@ W tym repozytorium zebrałem projekty przygotowane po ukończeniu studiów, w kt
 
 ### DrinksCorp_Sales 
 - Celem projektu jest analiza sprzedaży w DrinksCorp, wykorzystując tabele oraz wykresy przestawne i zapytania SQL.
-- Dane zostały wygenerowane częsciowo losowo w MS Excel przy użyciu funkcji LOS() i NORM.DIST(), a także zdefiniowanych przez użytkownika wartości zmiennych. Nazwy osób, produktów, klientów i adresów są zmyślone. Dane zostały podzielone na osobne, powiązane ze sobą tabele z unikalnymi ID. Ich generowanie można zaobserwować w pliku z końcówką „Generation” w nazwie.
+- Dane zostały wygenerowane częsciowo losowo w MS Excel przy użyciu funkcji LOS() i NORM.DIST(), a także zdefiniowanych przez użytkownika wartości zmiennych. Nazwy osób, produktów, klientów i adresy są zmyślone. Dane zostały podzielone na osobne tabele, powiązane ze sobą unikalnymi kluczami ID. Ich generowanie można zaobserwować w pliku z końcówką „Generation” w nazwie.
 - Tabele zostały załadowane do modelu danych w Power Pivot, gdzie utworzone zostały między nimi relacje. Na podstawie modelu stworzono tabele przestawne i wykresy prezentujące wyniki w postaci wskaźników KPI, sprzedaży przedstawicieli handlowych lub produktów, analizy cen i wglądu w wyniki bieżącego miesiąca.
 - Dane zostały również załadowane na serwer MySQL i napisane zostało kilka zapytań, aby uzyskać informacje o podstawowych statystykach sprzedaży, przychodach, kosztach, zyskach dla miesięcy, klientów, przedstawicieli handlowych i produktów.
 
@@ -24,7 +24,7 @@ In this repository, I've gathered post-grad projects in which I present my skill
 
 ### DrinksCorp_Sales 
 - This project aimed to analyze DrinksCorp sales using pivot tables, charts and SQL queries.
-- Data was generated semi-randomly in MS Excel using RAND() and NORM.DIST() functions, as well as user-defined values of variables. Names of people, products, customers and addresses were made up. Data was divided into separate related tables with unique IDs. The generation may be observed in the file with the "Generation" suffix in name.
+- Data was generated semi-randomly in MS Excel using RAND() and NORM.DIST() functions, as well as user-defined values of variables. Names of people, products, customers and addresses were made up. Data was divided into separate tables related with eachother by unique key IDs. The generation may be observed in the file with the "Generation" suffix in name.
 - Tables have been loaded into the data model in Power Pivot, and relations have been established. Based on the model, pivot tables and charts were created to present the results in the form of KPIs, sales of representatives or products, pricing analysis and the current month's insights.
 - Data was also loaded into MySQL server, and several queries were writtien to get information about basic sales statistics, revenues, costs, profits for months, customers, sales representatives and products.
   
